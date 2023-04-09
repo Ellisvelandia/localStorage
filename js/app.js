@@ -105,7 +105,7 @@ function carritoHTML() {
 }
 
 function sincronizaeStorage() {
-  localStorage.setItem("carrito", JSON.stringify());
+  localStorage.setItem("carrito", JSON.stringify(articulosCarrito));
 }
 
 //elimina los curso del tbody
